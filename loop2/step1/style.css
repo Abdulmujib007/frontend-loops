@@ -1,0 +1,143 @@
+body,
+html{
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+:root{
+    --pink: #DE8A89;
+    --gray: #ECB9B8;
+    --gray-hover: #FBCBCB;
+    --white: #FFFFFF;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--pink);
+    overflow-x: hidden;
+}
+.nav{
+    height: 9rem;
+    width: 90%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    column-gap: 3rem;
+    margin-left: 8.8rem;
+    font-size: 60px;
+    font-weight: bolder;
+    color: var(--white);
+}
+.nav p{
+    margin: 0;
+}
+
+.all{
+    color: #ecb9b8;
+}
+.all:hover{
+    color: #f2cacb;
+    cursor: pointer;
+}
+.washing-results{
+    margin-top: 1rem;
+    padding-left: 17.2rem;
+    font-size: 20px;
+    color: var(--white);
+}
+.large-container{
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.side-container1:hover,
+.side-container2:hover{
+    background-color:#f2cacb;
+    cursor: pointer;
+}
+.side-container1,
+.side-container2{
+    height: 7rem;
+    width: 7rem;
+  background-color: #ecb9b8;
+  margin-bottom: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.side-container2{
+    left:79.4rem ;
+
+}
+img{
+    height: 2rem;
+    width: 2rem;
+}
+.middle-container{
+    width: 60rem;
+    height: 22rem;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+}
+.division1{
+    background-color: #3e3c3d;
+}
+.division1 p{
+    margin: 0;
+    margin-bottom: 1rem;
+
+}
+.division2{
+    background-color: #353334;
+}
+.division2 p{
+    margin: 0;
+    margin-bottom: 1rem;
+    padding-left: 3rem;
+}
+.division3{
+    background-color: #201e1f;
+}
+.division3 p{
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.division1,.division2,.division3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10rem;
+    padding-top: 1rem;
+    font-size: 25px;
+    color: #de8a71;
+}
+.time{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+}
+.time.date{
+    padding-left: 1.4rem ;
+}
+.time.dates{
+    padding-right: 4rem;
+}
+.time.data{
+    padding-left: 3rem;
+}
+.ending{
+    position: absolute;
+    padding: 1.5rem 7rem;
+    background-color: black ;
+    margin-top: 22rem;
+    margin-right: 40.5rem;
+    border-radius: 5px;
+    color: white;
+}

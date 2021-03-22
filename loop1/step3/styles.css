@@ -1,0 +1,84 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color:#16a085;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    background-image: url('./img/bicycle.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top 11rem;
+    width:40rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: 15px;
+    align-items:1rem;
+    
+}
+.container p {
+    margin-left:80px;
+}   
+.account-icon{
+    height: 5rem;
+    width: 40rem;
+    display: flex;
+    align-items:flex-end;
+    justify-content:flex-start;
+    column-gap: 300px;
+
+}   
+img{
+    
+    width: 2rem;
+    height: 2rem; 
+}
+.delivery{
+    color: #bec3c9;
+} 
+.header{
+    margin: 0;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.pricing{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:flex-start;
+    color: #6f707a;
+}
+.numbers{
+    margin-right: 6rem;
+    color: black;
+    font-weight: bolder;
+}
+.image-border{
+    height: 2rem;
+    width: 2.5rem;
+    border:1px solid #f1f1f1 ;
+    border-radius: 50%;
+}
+.image{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+}
+.image-border:hover{
+    box-shadow: 0 0 5px 0  lightgray ;
+    cursor: pointer;
+}
+ 
