@@ -1,0 +1,126 @@
+body,
+html{
+    padding:0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #2a282a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.large-container{
+    width: 25rem;
+    background-color: #fcea49;
+}
+.first-image{
+    height: 1.5rem;
+    width: 1.5rem;
+    filter: invert(0.5);
+}
+.first-image:hover{
+    filter: invert(1);
+    cursor: pointer;
+    transition: 1s;
+}
+.contain{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    column-gap: 9rem;
+    font-size: 20px;
+}
+.contain p{
+    margin: 0;
+}
+
+.container2{
+    width: 26.5rem;
+    background-color: white;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.flexing{
+    width: 25rem;
+}
+.avatar{
+    height: 3.7rem;
+    width: 3.7rem;
+    border-radius: 50%;
+    margin-top: -2rem;
+    margin-left: 2rem;
+}
+.mail{
+    height: 5rem;
+    width: 85%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-bottom: 2px solid #e0dee0;
+    margin-left: 2.5rem;
+}
+
+input{
+    border-style: none;
+}
+input:focus{
+    outline: none;
+}
+.am-ok{
+    width: 85%;
+    border-bottom: 2px solid #e0dee0;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+}
+.user{
+    margin-bottom: 0;
+    margin-bottom: 0.5rem;
+    color: #9f9fa3;
+}
+.name{
+    padding-bottom: 0.5rem;
+}
+.ending{
+    height:5rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 2.5rem;
+}
+.ending p{
+    font-size: 17px;
+    color: #9f9fa3;
+}
+.ending p:hover{
+    color: black;
+    cursor: pointer;
+    transition: 1s;
+}
+.bio{
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    font-size: 17px;
+    color: #9f9fa3;
+}
+.am-done{
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+}
+.here{
+    resize: vertical;
+    overflow: auto;
+    border-style: none;
+    border-bottom: 2px solid #e0dee0;
+}
+.here:focus{
+    outline: none;
+}
