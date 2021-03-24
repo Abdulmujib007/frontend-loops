@@ -19,13 +19,13 @@ body{
     overflow-x: hidden;
 }
 .nav{
-    height: 9rem;
+    height: 8rem;
     width: 90%;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    column-gap: 3rem;
-    margin-left: 8.8rem;
+    column-gap: 2rem;
+    margin-left: 9.7rem;
     font-size: 60px;
     font-weight: bolder;
     color: var(--white);
@@ -43,12 +43,12 @@ body{
 }
 .washing-results{
     margin-top: 1rem;
-    padding-left: 17.2rem;
+    padding-left: 13rem;
     font-size: 20px;
     color: var(--white);
 }
 .large-container{
-    height: 30rem;
+    height: 25rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -64,7 +64,7 @@ body{
     height: 7rem;
     width: 7rem;
   background-color: #ecb9b8;
-  margin-bottom: 15rem;
+  margin-bottom: 13rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,7 +79,7 @@ img{
 }
 .middle-container{
     width: 60rem;
-    height: 22rem;
+    height: 20rem;
     background-color: black;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -136,8 +136,13 @@ img{
     position: absolute;
     padding: 1.5rem 7rem;
     background-color: black ;
-    margin-top: 22rem;
+    margin-top: 20rem;
     margin-right: 40.5rem;
     border-radius: 5px;
     color: white;
+    transition: 0.5s;
+}
+.ending:hover{
+ margin-bottom: 1rem;
+ cursor: pointer;
 }

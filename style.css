@@ -14,8 +14,8 @@ body{
 }
 h3{
     text-align: center;
-    color: #6E4C1EFF;
-    margin-right: 5rem;
+    color: gray;
+    margin-right: 2rem;
 }
 .container{
      width: 100%;
@@ -28,7 +28,7 @@ h3{
 .container div{
     height: 2rem;
     width: 20rem;
-    background-color:#FEAE51FF;
+    background-color:teal;
     border-radius: 10px;
     text-align: center;
 }
@@ -47,7 +47,7 @@ h3{
 }
 .para a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .check{
@@ -56,5 +56,5 @@ h3{
     background-position: right 1rem center;
 }
 .parallel{
-    color: #A13941FF;
+    color: white;
 }

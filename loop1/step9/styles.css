@@ -46,7 +46,7 @@ body{
     font-size: 20px;
 }
 .major-division{
-    height: 34rem;
+    height: 30rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -152,14 +152,14 @@ body{
     margin-left: 3rem;
 }
 .pricing{
-    height:6rem;
+    height:5.5rem;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 .iphone{
-    height: 12rem;
+    height:8rem;
     width: 16rem;
     display: flex;
     flex-direction: column;
