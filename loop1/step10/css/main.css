@@ -127,24 +127,22 @@ body::-webkit-scrollbar-thumb{
     font-weight: bold;
     font-size: 14px;
 }
-.dash:hover{
-    margin-left:1rem ;
+.dash:hover .dasher{
     transition: 1s;
+    width: 3rem;
+    cursor: pointer;
+}
+.dash:hover{
     cursor: pointer;
 }
 .dasher{
-    width: 3rem;
+    width: 2rem;
     height: 0.1rem;
     background-color: #e95855;
     margin-top: 1.4rem;
-    
+    transition: 0.5s;  
+}
 
-}
-.dasher:hover{
-    width: 5rem;
-    transition: 0.5s;
-    cursor: pointer;
-}
 .lettering{
     line-height: 1.5;
 }

@@ -7,16 +7,17 @@ html{
     box-sizing: border-box;
 }
 body{
-    height: 100vh;
     width: 100vw;
     background-color: #2a282a;
     display: flex;
-    align-items: center;
     justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 .large-container{
     width: 25rem;
     background-color: #fcea49;
+    box-shadow: 0px 0px  10px 5px rgba(0,0,0,0.3);
 }
 .first-image{
     height: 1.5rem;
@@ -46,6 +47,7 @@ body{
     background-color: white;
     margin-top: 3rem;
     margin-left: 3rem;
+    box-shadow: 0px 8px  10px 3px rgba(0,0,0,0.2);
 }
 .flexing{
     width: 25rem;
@@ -88,7 +90,7 @@ input:focus{
     padding-bottom: 0.5rem;
 }
 .ending{
-    height:5rem;
+   height:3rem;
     width: 90%;
     display: flex;
     align-items: center;

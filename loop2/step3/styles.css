@@ -25,6 +25,7 @@ body{
     background-color:#a46fd0;
     border-radius: 10px;
     color: #dfd6e0;
+    box-shadow:0px 0px  10px 4px rgba(0,0,0,0.2);;
 }
 .laugh:hover{
     color: #fffeff;
