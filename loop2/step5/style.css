@@ -1,0 +1,97 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    background:url("./img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top -10rem center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.container1{
+    height: 100%;
+    width: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+.icon{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.bigger p{
+    margin: 0;
+    margin-left: 0.5rem;
+    color: white;
+    font-size: 18px;
+}
+.container2{
+    height: 100%;
+    width: 38rem;
+    clip-path: polygon(40% 0, 100% 0%, 100% 100%, 20% 100%);
+    background-color: #f0ca44;
+    opacity: 0.85;
+}
+.show{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2rem;
+    column-gap: 0.5rem;
+}
+.show p{
+    font-weight: bolder;
+}
+.numb{
+    margin: 0;
+    font-size: 5rem;
+    margin-top: 14rem;
+    margin-left: 33rem;  
+
+}
+.para{
+    margin: 0;
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+.tired{
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-right: 2rem;
+}
+.ending{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2rem;
+    column-gap: 0.5rem;
+
+}
+.ending img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.ending p{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
