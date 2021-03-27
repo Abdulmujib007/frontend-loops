@@ -16,6 +16,7 @@ body{
     width: 100vw;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 .container1{
     height: 100%;

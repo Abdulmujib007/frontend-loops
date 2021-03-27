@@ -1,0 +1,126 @@
+body,
+html{
+    padding: 0;
+    margin: 0;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #78accd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1{
+    background-color: white;
+    width: 20rem;
+   
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    border-bottom: 1px solid #f0f0f0;
+    color:#949a9d;
+    font-weight: bold;
+
+}
+.day{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr );
+    padding: 1rem 0.5rem;
+    place-content: center;
+    place-items: center;
+    row-gap: 1rem;
+    border-bottom: 1px solid #f0f0f0;
+    
+}
+.day p{
+    margin: 0;
+}
+.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+.plus{
+    height: 2rem;
+    width: 2rem;
+    border: 2px solid #de6e46;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.change{
+    color: #92a0af;
+    font-weight: bolder;
+}
+.chain{
+    color: #e1e4e8;
+}
+.chan{
+    background-color: #de6e46;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fdf7ed;
+    font-weight: bold;
+}    
+.clan{
+    height: 2rem;
+    width: 2rem;
+    border: 2px solid #de6e46;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.clan::after{
+    content: "6";
+    background-color: #de6e46;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: -5px;
+    right: -3px;
+    font-size: 10px;
+}
+.chin{
+    height: 2rem;
+    width: 2rem;
+    border: 2px solid #ae5989;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.chin::after{
+    content: "5";
+    background-color:#ae5989;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: -5px;
+    right: -3px;
+    font-size: 10px;
+}
