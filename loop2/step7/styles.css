@@ -1,0 +1,148 @@
+html,
+body{
+    padding: 0;
+    margin: 0;
+}*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    background-color: #c2f7ff;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1{
+    height: 90vh;
+    width: 26rem;
+    background:#8e888d  url("./img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+.inner-container{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 0.7rem;
+    color: white;
+    font-weight: bolder;
+    margin-left: 7.5rem;
+}
+.inner-container p{
+    margin: 0;
+}
+.large{
+    font-size: 25px;
+}
+.media{
+    height: 3rem;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.3rem;
+    border-radius: 1.5rem;
+    background-color: rgba(91,160,143,0.8);
+    /* opacity: 0.8; */
+    color:white;
+
+
+
+}
+.media img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.media:hover{
+    background-color: rgba(91,160,143,1);   
+    cursor: pointer;
+}
+.container2{
+    height: 90vh;
+    width: 35rem;
+    background-color: white;
+}
+.division1{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    margin-top: 1.5rem;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.division2{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-column-gap: 1.7rem;
+    padding: 0 2rem;
+    font-size: 20px;
+
+}
+.divsion2 p{
+    margin: 0;
+}
+.year{
+    color: #d9d8d9;
+    
+}
+.day:hover{
+    color: #2c2b26;
+    cursor: pointer;
+}
+
+.division3{
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    row-gap: 2.5rem;
+    padding-top: 0.5rem;
+    align-items: center;
+}
+.end p{
+    margin: 0;
+}
+.end img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+.end{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 2rem;
+}
+.ending{
+    display: flex;
+    flex-direction: column;
+}
+.ending p{
+    margin:0;
+}
+.bold{
+    font-weight: bolder; 
+}
+.size{
+    font-size:35px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.done{
+    display: flex;
+    column-gap: 0.5rem;
+}
+.gone{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
