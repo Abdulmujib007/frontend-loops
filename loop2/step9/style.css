@@ -1,0 +1,170 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #3f6cf7;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container1 {
+  width: 25rem;
+  background-color: white;
+  position: relative;
+}
+.division1 {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 2rem;
+}
+.first {
+  width: 1.5rem;
+}
+.first:hover{
+    filter: invert(1);
+    cursor: pointer;
+}
+.division2 {
+  background: #5a87fb url("./img/map.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode:multiply;
+  
+  width: 27rem;
+  height: 8rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-left: -1rem;
+  box-shadow: 0px 10px 15px 0 rgba(0, 0, 0, 0.3);
+  color: white;
+  font-weight: bolder;
+}
+.internet{
+    font-weight: bold;
+    font-size: 15px;
+}
+.divide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.6rem;
+  width: 7.5rem;
+  height: 2.5rem;
+  background-color: #5077f6;
+  margin-top: 1.5rem;
+  margin-left: 16.5rem;
+  border-radius: 2px;
+}
+.divide:hover{
+    cursor: pointer;
+    background-color: #466ff6;
+}
+.first-image {
+  width: 1rem;
+}
+.contain {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+.hamb,
+.clog {
+  padding-top: 0.8rem;
+}
+.tired {
+  display: flex;
+}
+.rounded {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 0;
+  margin-top: 0.8rem;
+  background-color: white;
+}
+.ment {
+  color: #b4c5f3;
+}
+.tired {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}
+.me {
+  margin-left: 1.2rem;
+  margin-bottom: 0.6rem;
+  position: absolute;
+  left: 10rem;
+}
+.time {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+.timer{
+    padding-right: 5rem;
+}
+.time p {
+  margin: 0;
+}
+.timed{
+    font-weight: lighter;
+}
+.times{
+    font-weight: lighter;
+}
+.para {
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+.wtf {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  padding-bottom: 1rem;
+}
+.wtf p {
+  margin: 0;
+  margin-top: 2px;
+}
+.who {
+  margin-right: 6rem;
+}
+.mj {
+  margin-right: 4.7rem;
+}
+.done{
+width: 90%;
+margin-left: 10%;
+height: 4rem;
+background-image: url("./img/streetview.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.done img{
+    width: 1.2rem;
+    margin-left: 0.6rem;
+    margin-top: 1.5rem;
+}
+.home{
+    padding-top: 1rem;
+}
+.house{
+    color: #a19d9c;
+}
