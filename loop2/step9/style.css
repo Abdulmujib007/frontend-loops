@@ -35,18 +35,19 @@ body {
     cursor: pointer;
 }
 .division2 {
-  background: #5a87fb url("./img/map.png");
+  background:  url("./img/map.png");
+  background-color: #486cda;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-blend-mode:multiply;
+  background-blend-mode: soft-light;
   
   width: 27rem;
   height: 8rem;
   border-radius: 5px;
   margin-top: 1rem;
   margin-left: -1rem;
-  box-shadow: 0px 10px 15px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
   color: white;
   font-weight: bolder;
 }
@@ -58,13 +59,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: 0.6rem;
-  width: 7.5rem;
-  height: 2.5rem;
-  background-color: #5077f6;
-  margin-top: 1.5rem;
-  margin-left: 16.5rem;
+  column-gap: 0.3rem;
+  width: 7rem;
+  height: 2rem;
+  background-color: #3f6cf7;
+  margin-top: 1.8rem;
+  margin-left: 18rem;
   border-radius: 2px;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.1);
+
 }
 .divide:hover{
     cursor: pointer;
@@ -83,6 +87,7 @@ body {
 .hamb,
 .clog {
   padding-top: 0.8rem;
+  font-size: 15px;
 }
 .tired {
   display: flex;
@@ -115,12 +120,14 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0 2rem;
+  font-size: 15px;
 }
 .timer{
     padding-right: 5rem;
 }
 .time p {
   margin: 0;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
 }
 .timed{
     font-weight: lighter;
@@ -156,6 +163,7 @@ background-image: url("./img/streetview.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+border-radius: 5px 0 0 5px;
 }
 .done img{
     width: 1.2rem;
